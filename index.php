@@ -23,7 +23,7 @@ require "settings/init.php";
 
 <body>
 <!--Navbar Nadja-->
-<nav class="navbar navbar-expand-lg bg-nav">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">PlanteDrømme</a>
         <img src="img/logo.png" alt="Logo" width="30" class="d-inline-block align-text-top">
@@ -34,17 +34,26 @@ require "settings/init.php";
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#"></a>
                     </li>
         </div>
     </div>
 </nav>
 
 <!--Hero Nadja-->
-
+<main>
+    <article>
+        <h1>Plantevægge</h1>
+        <p>Vil du gerne have en plantevæg i hjemmet. <br> Så har vi det du skal bruge!
+        Om det er en kunstig plantevæg eller en lavet af rigtige planter. <br> Kontakt os og så kan vi tage en snak.</p>
+    </article>
+    <figure class="container-fluid">
+        <img class="img-fluid plant" src="img/sukkulenter.png" alt="sukkulenter">
+    </figure>
+</main>
 
 <!--indhold-->
 
