@@ -22,7 +22,7 @@ require "settings/init.php";
 </head>
 
 <body>
-<!--Navbar-->
+<!--Navbar Nadja-->
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
@@ -30,15 +30,13 @@ require "settings/init.php";
     </div>
 </nav>
 
-<!--Hero-->
+<!--Hero Nadja-->
 
 <!--indhold-->
 
-<!--Blog-->
+<!--Produkt Betül-->
 
-<!--Produkt-->
-
-<!--footer med kontakt information-->
+<!--footer med kontakt information Betül-->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
