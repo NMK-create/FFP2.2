@@ -29,11 +29,52 @@ body{
 }
 
 .nav-link{
-	color: #9DAA8D;
+	color: #37541C;
 	font-weight: bold;
 }
 .navbar-brand{
-	color: #CB9E80;
+	color: #4c3323;
 	font-weight: bolder;
 }
 
+.plant{
+	width: 100%;
+	height:auto;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-radius: 11%;
+}
+
+main {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+figure {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.plant {
+	width: 100%;
+	display: block;
+}
+
+article {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	background: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	border-radius: 10px;
+	z-index: 10;
+}
