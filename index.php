@@ -9,28 +9,42 @@ require "settings/init.php";
 <html lang="da">
 <head>
     <meta charset="utf-8">
-    
-    <title>Sigende titel</title>
-    
+
+    <title>PlanteDrømme</title>
+
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-    
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 <!--Navbar Nadja-->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg bg-nav">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
-
+        <a class="navbar-brand" href="#">PlanteDrømme</a>
+        <img src="img/logo.png" alt="Logo" width="30" class="d-inline-block align-text-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+        </div>
     </div>
 </nav>
 
 <!--Hero Nadja-->
+
 
 <!--indhold-->
 
