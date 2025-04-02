@@ -34,10 +34,16 @@ require "settings/init.php";
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="nav ms-auto">
                     <li class="nav-item">
+                        <a class="nav-link active" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
+                        <a class="nav-link" href="#">Om os</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt os</a>
                     </li>
         </div>
     </div>
