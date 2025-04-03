@@ -57,7 +57,7 @@ main {
 	align-items: center;
 }
 
-figure {
+.heroimg {
 	position: relative;
 	width: 100%;
 	z-index: 1;
@@ -68,7 +68,7 @@ figure {
 	display: block;
 }
 
-article {
+.hero {
 	position: absolute;
 	top: 50%;
 	left: 10%;
@@ -77,4 +77,32 @@ article {
 	padding: 20px;
 	border-radius: 10px;
 	z-index: 10;
+}
+
+.accordion-button {
+	background-color: white;
+	color: black;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: forestgreen;
+	color: white;
+}
+
+.bestil-knap {
+	background-color: #59381f;
+	color: white;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bestil-knap:hover {
+	background-color: forestgreen;
+	color: white;
 }
