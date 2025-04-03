@@ -67,7 +67,7 @@ require "settings/init.php";
     <section class="row">
         <!-- Produktbillede -->
         <picture class="col-md-6">
-            <img src="img/produkt.png" alt="Produktbillede">
+            <img src="img/produkt.jpg" alt="Produktbillede">
         </picture>
 
         <!-- Produktinformation -->
