@@ -56,19 +56,18 @@ require "settings/init.php";
         <p>Vil du gerne have en plantevæg i hjemmet. <br> Så har vi det du skal bruge!
         Om det er en kunstig plantevæg eller en lavet af rigtige planter. <br> Kontakt os og så kan vi tage en snak.</p>
     </article>
-    <figure class="container-fluid heroimg">
+    <figure class="container-fluid hero-img">
         <img class="img-fluid plant" src="img/sukkulenter.png" alt="sukkulenter">
     </figure>
 </main>
 
-<!--indhold-->
 
 <!--Produkt Betül-->
 <main class="container py-5">
     <section class="row">
         <!-- Produktbillede -->
         <picture class="col-md-6">
-            <img src="img/produktbillede.png" class="img-fluid" alt="Produktbillede">
+            <img src="img/produkt.png" alt="Produktbillede">
         </picture>
 
         <!-- Produktinformation -->
